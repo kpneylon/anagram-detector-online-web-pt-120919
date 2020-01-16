@@ -9,7 +9,7 @@ class Anagram
     puts "Must find #{self.word} inside the following string: #{find_anagram_in_this_string}"
     find_anagram_in_this_string.find_all do |word| 
       if word.split("").sort == self.word.split("").sort 
-        word 
+        
       end
     end 
   end
